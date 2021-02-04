@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "taletweaks:taleiumshards"
+        },
+        {
+            "tag": "forge:stone"
+        }
+    ],
+    "result": {
+        "item": "minecraft:andesite",
+        "count": 1
+    }
+}

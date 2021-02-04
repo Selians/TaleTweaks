@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "taletweaks:taleiumpulver"
+    },
+    "result": "taletweaks:cinderstone",
+    "experience": 5,
+    "cookingtime": 300
+}

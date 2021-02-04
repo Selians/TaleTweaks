@@ -1,0 +1,24 @@
+{
+	"conditions": [
+		{
+		  "type": "forge:mod_loaded",
+		  "modid": "create"
+		}
+	],
+    "type": "create:crushing",
+    "ingredient": {
+        "item": "taletweaks:taleiumshards"
+    },
+    "results": [
+    	{
+    	"item": "taletweaks:taleiumpulver",
+    	"count": 2
+    	},
+    	{
+    	"item": "taletweaks:taleiumpulver",
+    	"count": 2,
+    	"chance": 0.25
+    	}
+    ],
+    "processingTime": 60
+}

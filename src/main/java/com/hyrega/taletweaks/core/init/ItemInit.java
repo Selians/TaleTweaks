@@ -32,6 +32,8 @@ public class ItemInit {
 	public static final RegistryObject<Item> TALEBOOK3 = ITEMS.register("talebook3",
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));
 	
+	public static Item taleogath_entity_egg;
+	
 	//Block items
 	public static final RegistryObject<BlockItem> TALEIUM_ORE = ITEMS.register("taleium_ore",
 			() -> new BlockItem(BlockInit.TALEIUM_ORE.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));

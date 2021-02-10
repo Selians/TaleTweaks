@@ -1,6 +1,8 @@
 package com.hyrega.taletweaks.core.init;
 
 import com.hyrega.taletweaks.TaleTweaks;
+import com.hyrega.taletweaks.common.items.CinderstoneFuel;
+import com.hyrega.taletweaks.common.items.HadeanFuel;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -18,7 +20,7 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 	
 	public static final RegistryObject<Item> CINDERSTONE = ITEMS.register("cinderstone",
-			() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+			() -> new CinderstoneFuel(new Item.Properties().group(ItemGroup.MATERIALS)));
 	
 	public static final RegistryObject<Item> TALEIUMPULVER = ITEMS.register("taleiumpulver",
 			() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
@@ -30,7 +32,7 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));
 	
 	public static final RegistryObject<Item> HADEANSPHERE = ITEMS.register("hadeansphere",
-			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));
+			() -> new HadeanFuel(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
 	
 	public static final RegistryObject<Item> TALEBOOK1 = ITEMS.register("talebook1",
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));

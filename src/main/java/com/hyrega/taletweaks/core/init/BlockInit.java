@@ -18,8 +18,15 @@ public class BlockInit {
 	
 	public static final RegistryObject<Block> TALEIUM_ORE = BLOCKS.register("taleium_ore",
 			() -> new Block(AbstractBlock.Properties.create(Material.IRON)
-					.hardnessAndResistance(15, 3)
+					.hardnessAndResistance(4, 3)
 					.harvestTool(ToolType.PICKAXE)
 					.harvestLevel(1)
 					.sound(SoundType.METAL)));
+	
+	public static final RegistryObject<Block> BLAZING_NETHERRACK = BLOCKS.register("blazing_netherrack",
+			() -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+					.hardnessAndResistance(4, 3)
+					.harvestTool(ToolType.PICKAXE)
+					.harvestLevel(1)
+					.sound(SoundType.NETHERRACK)));
 }

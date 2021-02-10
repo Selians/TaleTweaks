@@ -10,14 +10,14 @@
             "item": "taletweaks:hadeansphere"
         },
         "P": {
-            "item": "taletweaks:netheritehalo"
+            "item": "enigmaticlegacy:twisted_core"
         },
         "O": {
-            "item": "taletweaks:talebook2"
+            "item": "taletweaks:netheritehalo"
         }
     },
     "result": {
-        "item": "taletweaks:talebook3",
+        "item": "enigmaticlegacy:cursed_ring",
         "count": 1
     }
 }

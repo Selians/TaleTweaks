@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " P ",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "taletweaks:talebook3"
+        },
+        "P": {
+            "item": "enigmaticlegacy:etherium_ingot"
+        }
+    },
+    "result": {
+        "item": "enigmaticlegacy:enigmatic_amulet",
+        "count": 1
+    }
+}

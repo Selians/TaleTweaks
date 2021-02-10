@@ -1,9 +1,16 @@
 {
+	//items
 	"item.taletweaks.taleiumshards": "Taleium Shards",
 	"item.taletweaks.cinderstone": "Cinderstone",
 	"item.taletweaks.taleiumpulver": "Taleium Pulver",
+	"item.taletweaks.knowledgebound": "Knowledgebound",
+	"item.taletweaks.netheritehalo": "Netherite Halo",
+	"item.taletweaks.hadeansphere": "Hadean Sphere",
 	"item.taletweaks.talebook1": "Tale",
 	"item.taletweaks.talebook2": "Tale",
 	"item.taletweaks.talebook3": "Tale",
-	"block.taletweaks.taleium_ore": "Taleium Ore"
+	
+	//blocks
+	"block.taletweaks.taleium_ore": "Taleium Ore",
+	"block.taletweaks.blazing_netherrack": "Blazing Netherrack"
 }

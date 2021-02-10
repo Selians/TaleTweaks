@@ -20,6 +20,11 @@ public class OreGeneration {
 			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
 					BlockInit.TALEIUM_ORE.get().getDefaultState(), 6, 15, 100, 14);
 		}
+		
+		if(event.getCategory().equals(Biome.Category.NETHER)) {
+			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NETHERRACK,
+					BlockInit.BLAZING_NETHERRACK.get().getDefaultState(), 2, 30, 48, 2);
+		}
 	}
 	
 	private static void generateOre(BiomeGenerationSettingsBuilder settings, RuleTest fillerType, BlockState state, 
